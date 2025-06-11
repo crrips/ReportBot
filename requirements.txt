@@ -1,0 +1,6 @@
+asyncio==3.4.3
+aiogram==3.19.0
+asyncpg --no-binary :all
+pytz==2025.2
+pandas==2.2.3
+openpyxl==3.1.5

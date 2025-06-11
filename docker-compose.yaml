@@ -1,0 +1,9 @@
+services:
+
+  bot:
+    build: .
+    container_name: report_bot
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
